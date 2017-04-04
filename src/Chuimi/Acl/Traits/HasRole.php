@@ -1,8 +1,8 @@
-<?php namespace Kodeine\Acl\Traits;
+<?php namespace Chuimi\Acl\Traits;
 
 /**
  * Class HasRoleImplementation
- * @package Kodeine\Acl\Traits
+ * @package Chuimi\Acl\Traits
  *
  * @method static Builder|Collection|\Eloquent role($role, $column = null)
  */
@@ -24,7 +24,7 @@ trait HasRoleImplementation
      */
     public function roles()
     {
-        $model = config('acl.role', 'Kodeine\Acl\Models\Eloquent\Role');
+        $model = config('acl.role', 'Chuimi\Acl\Models\Eloquent\Role');
 
         return $this->belongsToMany($model)->withTimestamps();
     }
@@ -226,7 +226,7 @@ trait HasRoleImplementation
     {
         if ( is_string($role) || is_numeric($role) ) {
 
-            $model = config('acl.role', 'Kodeine\Acl\Models\Eloquent\Role');
+            $model = config('acl.role', 'Chuimi\Acl\Models\Eloquent\Role');
             $key = is_numeric($role) ? 'id' : 'slug';
             $alias = (new $model)->where($key, $role)->first();
 

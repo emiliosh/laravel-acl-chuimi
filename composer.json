@@ -1,5 +1,5 @@
 {
-    "name": "kodeine/laravel-acl",
+    "name": "emiliosh/laravel-acl-chuimi",
     "description": "Light-weight role-based permissions for Laravel 5 built in Auth system.",
     "license": "MIT",
     "keywords": [
@@ -13,8 +13,8 @@
     ],
     "authors": [
         {
-            "name": "Ahsen M.",
-            "homepage": "https://github.com/kodeine",
+            "name": "Esh",
+            "homepage": "https://github.com/emiliosh",
             "role": "Developer"
         }
     ],
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kodeine\\Acl\\": "src/Kodeine/Acl"
+            "Chuimi\\Acl\\": "src/Chuimi/Acl"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kodeine\\Acl\\Tests\\": "tests/"
+            "Chuimi\\Acl\\Tests\\": "tests/"
         }
     }
 }

@@ -1,6 +1,6 @@
-<?php namespace Kodeine\Acl\Tests\Models;
+<?php namespace Chuimi\Acl\Tests\Models;
 
-use Kodeine\Acl\Tests\TestCase;
+use Chuimi\Acl\Tests\TestCase;
 
 abstract class ModelsTest extends TestCase
 {

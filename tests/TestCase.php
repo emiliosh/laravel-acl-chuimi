@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Tests;
+<?php namespace Chuimi\Acl\Tests;
 
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
@@ -18,7 +18,7 @@ abstract class TestCase extends BaseTestCase
     protected function getPackageProviders($app)
     {
         return [
-            \Kodeine\Acl\AclServiceProvider::class,
+            \Chuimi\Acl\AclServiceProvider::class,
         ];
     }
 
@@ -53,8 +53,8 @@ abstract class TestCase extends BaseTestCase
             'database' => ':memory:',
             'prefix'   => '',
         ]);
-        $config->set('auth.model', \Kodeine\Acl\Models\Eloquent\User::class);
-        $config->set('auth.providers.users.model', \Kodeine\Acl\Models\Eloquent\User::class);
+        $config->set('auth.model', \Chuimi\Acl\Models\Eloquent\User::class);
+        $config->set('auth.providers.users.model', \Chuimi\Acl\Models\Eloquent\User::class);
     }
 
     /* ------------------------------------------------------------------------------------------------

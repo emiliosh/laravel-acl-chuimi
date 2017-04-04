@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Tests;
+<?php namespace Chuimi\Acl\Tests;
 
 use Illuminate\Support\Facades\Schema;
 

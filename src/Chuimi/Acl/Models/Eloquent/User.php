@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Models\Eloquent;
+<?php namespace Chuimi\Acl\Models\Eloquent;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Auth\Authenticatable;
@@ -6,7 +6,7 @@ use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 use Illuminate\Auth\Passwords\CanResetPassword;
-use Kodeine\Acl\Traits\HasRole;
+use Chuimi\Acl\Traits\HasRole;
 
 class User extends Model
 {

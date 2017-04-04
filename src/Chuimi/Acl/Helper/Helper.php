@@ -1,4 +1,4 @@
-<?php namespace Kodeine\Acl\Helper;
+<?php namespace Chuimi\Acl\Helper;
 
 use Illuminate\Support\Collection;
 
